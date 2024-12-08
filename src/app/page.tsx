@@ -5,6 +5,8 @@ import SkillCategories from "../components/SkillCategories";
 import HomepageContentCategories from "../components/HomepageContentCategories";
 import { type BlocksContent } from "@strapi/blocks-react-renderer";
 import "./styles.css";
+import fs from "fs";
+import path from "path";
 
 interface Attributes {
   FA_Brand_Icon: string | null;
@@ -41,14 +43,10 @@ interface Categories {
   data: Category[];
 }
 
-async function fetchCategories(endpoint: string): Promise<Categories> {
-  const res = await fetch("http://strapi.marcelm.org/api/" + endpoint);
-
-  if (!res.ok) {
-    throw new Error("Failed to fetch data");
-  }
-
-  const data = await res.json();
+async function fetchCategories(fileName: string): Promise<Categories> {
+  const filePath = path.join(process.cwd(), "src/data", fileName);
+  const jsonData = fs.readFileSync(filePath, "utf-8");
+  const data = JSON.parse(jsonData);
 
   data.data.sort((a: Category, b: Category) => {
     const weightA = a.attributes.Weight;
@@ -63,9 +61,9 @@ async function fetchCategories(endpoint: string): Promise<Categories> {
 }
 
 const Home = async () => {
-  const skillCategories = await fetchCategories("skill-categories?populate=*");
+  const skillCategories = await fetchCategories("skillCategories.json");
   const homepageContentCategories = await fetchCategories(
-    "homepage-content-categories?populate=*"
+    "homepageContentCategories.json"
   );
 
   return (

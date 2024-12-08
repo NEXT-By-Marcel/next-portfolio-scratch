@@ -1,0 +1,572 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "createdAt": "2024-07-01T16:12:05.790Z",
+        "updatedAt": "2024-07-19T16:26:13.072Z",
+        "publishedAt": "2024-07-01T16:16:07.177Z",
+        "Name": "Modern Web Apps",
+        "Weight": 100,
+        "skills": {
+          "data": [
+            {
+              "id": 22,
+              "attributes": {
+                "Name": "React",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Developed scalable web applications using React and modern best practices."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T03:02:18.338Z",
+                "updatedAt": "2024-07-01T16:01:40.411Z",
+                "publishedAt": "2024-07-01T03:02:19.546Z",
+                "FA_Brand_Icon": "React",
+                "FA_Solid_Icon": null
+              }
+            },
+            {
+              "id": 21,
+              "attributes": {
+                "Name": "Tailwind CSS",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Created responsive UIs using Tailwind CSS for clean, efficient styling."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T03:01:08.937Z",
+                "updatedAt": "2024-07-01T16:01:07.818Z",
+                "publishedAt": "2024-07-01T03:01:10.079Z",
+                "FA_Brand_Icon": null,
+                "FA_Solid_Icon": "Wind"
+              }
+            },
+            {
+              "id": 24,
+              "attributes": {
+                "Name": "Typescript",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Applied TypeScript to improve code quality and scalability."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T03:06:46.258Z",
+                "updatedAt": "2024-07-01T16:01:58.086Z",
+                "publishedAt": "2024-07-01T03:07:03.307Z",
+                "FA_Brand_Icon": null,
+                "FA_Solid_Icon": "Scroll"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "createdAt": "2024-07-01T19:32:53.174Z",
+        "updatedAt": "2024-07-19T16:26:48.559Z",
+        "publishedAt": "2024-07-01T19:42:22.914Z",
+        "Name": "Monolithic Content Management Systems",
+        "Weight": 200,
+        "skills": {
+          "data": [
+            {
+              "id": 7,
+              "attributes": {
+                "Name": "WordPress",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Customized themes and integrated plugins for dynamic WordPress sites."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T02:31:32.152Z",
+                "updatedAt": "2024-07-01T02:31:47.226Z",
+                "publishedAt": "2024-07-01T02:31:39.968Z",
+                "FA_Brand_Icon": "Wordpress",
+                "FA_Solid_Icon": null
+              }
+            },
+            {
+              "id": 8,
+              "attributes": {
+                "Name": "Drupal",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Developed custom modules and managed content for multilingual Drupal sites."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T02:34:36.012Z",
+                "updatedAt": "2024-07-01T02:34:37.979Z",
+                "publishedAt": "2024-07-01T02:34:37.976Z",
+                "FA_Brand_Icon": "Drupal",
+                "FA_Solid_Icon": null
+              }
+            },
+            {
+              "id": 9,
+              "attributes": {
+                "Name": "Magento",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Built front-end solutions for e-commerce sites using Magento's MVC structure."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T02:35:59.385Z",
+                "updatedAt": "2024-07-01T02:36:02.086Z",
+                "publishedAt": "2024-07-01T02:36:02.084Z",
+                "FA_Brand_Icon": "Magento",
+                "FA_Solid_Icon": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "createdAt": "2024-07-01T19:34:21.783Z",
+        "updatedAt": "2024-07-19T16:27:24.694Z",
+        "publishedAt": "2024-07-01T19:42:25.786Z",
+        "Name": "Programming Languages",
+        "Weight": 300,
+        "skills": {
+          "data": [
+            {
+              "id": 3,
+              "attributes": {
+                "Name": "JavaScript",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Experienced in jQuery, Node.js, React, and API integration."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-06-30T20:09:09.147Z",
+                "updatedAt": "2024-07-01T02:07:04.612Z",
+                "publishedAt": "2024-06-30T20:12:00.625Z",
+                "FA_Brand_Icon": "Js",
+                "FA_Solid_Icon": null
+              }
+            },
+            {
+              "id": 1,
+              "attributes": {
+                "Name": "PHP",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Specialized in WordPress theme development and custom PHP solutions."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-06-23T19:35:30.629Z",
+                "updatedAt": "2024-07-04T17:18:57.147Z",
+                "publishedAt": "2024-06-25T17:56:51.107Z",
+                "FA_Brand_Icon": "Php",
+                "FA_Solid_Icon": null
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "Name": "CSS3",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Implemented responsive, mobile-first designs with Flexbox, Grid, and other CSS3 features."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T02:19:12.102Z",
+                "updatedAt": "2024-07-01T02:19:45.305Z",
+                "publishedAt": "2024-07-01T02:19:22.555Z",
+                "FA_Brand_Icon": "Css3",
+                "FA_Solid_Icon": null
+              }
+            },
+            {
+              "id": 2,
+              "attributes": {
+                "Name": "MySQL",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Designed optimized databases, wrote complex queries, and enhanced performance."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-06-23T19:36:05.735Z",
+                "updatedAt": "2024-07-01T02:07:31.748Z",
+                "publishedAt": "2024-06-23T19:41:13.675Z",
+                "FA_Brand_Icon": null,
+                "FA_Solid_Icon": "Database"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "createdAt": "2024-07-01T19:36:38.427Z",
+        "updatedAt": "2024-07-19T16:28:06.546Z",
+        "publishedAt": "2024-07-01T19:42:28.414Z",
+        "Name": "Marketing/Search Appearance",
+        "Weight": 500,
+        "skills": {
+          "data": [
+            {
+              "id": 19,
+              "attributes": {
+                "Name": "Google Tag Manager",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Implemented tags and conversion tracking to optimize marketing efforts."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T02:57:06.530Z",
+                "updatedAt": "2024-07-01T02:57:15.194Z",
+                "publishedAt": "2024-07-01T02:57:15.190Z",
+                "FA_Brand_Icon": null,
+                "FA_Solid_Icon": "Tag"
+              }
+            },
+            {
+              "id": 20,
+              "attributes": {
+                "Name": "Google Analytics 4",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Created custom reports and managed properties for data-driven insights."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T02:59:38.283Z",
+                "updatedAt": "2024-07-01T02:59:39.318Z",
+                "publishedAt": "2024-07-01T02:59:39.315Z",
+                "FA_Brand_Icon": null,
+                "FA_Solid_Icon": "ChartLine"
+              }
+            },
+            {
+              "id": 15,
+              "attributes": {
+                "Name": "SEO",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Applied SEO best practices to improve site rankings and visibility."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T02:43:54.411Z",
+                "updatedAt": "2024-07-01T02:43:55.391Z",
+                "publishedAt": "2024-07-01T02:43:55.388Z",
+                "FA_Brand_Icon": null,
+                "FA_Solid_Icon": "Search"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "createdAt": "2024-07-01T19:40:16.562Z",
+        "updatedAt": "2024-07-19T16:28:46.962Z",
+        "publishedAt": "2024-07-01T19:42:35.331Z",
+        "Name": "Best Practices",
+        "Weight": 600,
+        "skills": {
+          "data": [
+            {
+              "id": 17,
+              "attributes": {
+                "Name": "API Integration",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Integrated third-party APIs using tools like Postman, Express, and PHP cURL."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T02:51:16.829Z",
+                "updatedAt": "2024-07-19T14:34:23.271Z",
+                "publishedAt": "2024-07-01T02:51:43.194Z",
+                "FA_Brand_Icon": null,
+                "FA_Solid_Icon": "Code"
+              }
+            },
+            {
+              "id": 14,
+              "attributes": {
+                "Name": "Page Speed Optimization",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Optimized websites for better load times and overall performance."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T02:41:55.691Z",
+                "updatedAt": "2024-07-01T02:41:56.754Z",
+                "publishedAt": "2024-07-01T02:41:56.752Z",
+                "FA_Brand_Icon": null,
+                "FA_Solid_Icon": "Tachometer"
+              }
+            },
+            {
+              "id": 16,
+              "attributes": {
+                "Name": "Responsive Web Development",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Ensured compatibility across devices through responsive design principles."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T02:48:37.297Z",
+                "updatedAt": "2024-07-01T02:49:55.685Z",
+                "publishedAt": "2024-07-01T02:48:38.281Z",
+                "FA_Brand_Icon": null,
+                "FA_Solid_Icon": "TabletAlt"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "createdAt": "2024-07-01T19:41:26.403Z",
+        "updatedAt": "2024-07-19T16:30:33.611Z",
+        "publishedAt": "2024-07-01T19:42:35.331Z",
+        "Name": "Other Tools and Libraries",
+        "Weight": 700,
+        "skills": {
+          "data": [
+            {
+              "id": 6,
+              "attributes": {
+                "Name": "Sass",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Used Sass to streamline CSS writing and enhance project maintainability."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T02:30:38.499Z",
+                "updatedAt": "2024-07-01T02:30:46.767Z",
+                "publishedAt": "2024-07-01T02:30:46.763Z",
+                "FA_Brand_Icon": "Sass",
+                "FA_Solid_Icon": null
+              }
+            },
+            {
+              "id": 5,
+              "attributes": {
+                "Name": "Less",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Employed Less for efficient CSS preprocessing and organization."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T02:20:42.940Z",
+                "updatedAt": "2024-07-01T02:29:15.620Z",
+                "publishedAt": "2024-07-01T02:20:45.281Z",
+                "FA_Brand_Icon": "Less",
+                "FA_Solid_Icon": null
+              }
+            },
+            {
+              "id": 13,
+              "attributes": {
+                "Name": "Bootstrap",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Built responsive layouts using Bootstrap’s pre-built components."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T02:39:53.721Z",
+                "updatedAt": "2024-07-01T02:39:54.763Z",
+                "publishedAt": "2024-07-01T02:39:54.760Z",
+                "FA_Brand_Icon": "Bootstrap",
+                "FA_Solid_Icon": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "createdAt": "2024-07-01T19:42:05.146Z",
+        "updatedAt": "2024-07-19T16:29:35.615Z",
+        "publishedAt": "2024-07-01T19:42:35.331Z",
+        "Name": "Version Control",
+        "Weight": 400,
+        "skills": {
+          "data": [
+            {
+              "id": 11,
+              "attributes": {
+                "Name": "Github",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Proficient with Git for version control, including branching, merging, and rebasing."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T02:37:38.148Z",
+                "updatedAt": "2024-07-19T14:37:22.791Z",
+                "publishedAt": "2024-07-01T02:38:28.981Z",
+                "FA_Brand_Icon": "Git",
+                "FA_Solid_Icon": null
+              }
+            },
+            {
+              "id": 12,
+              "attributes": {
+                "Name": "Bitbucket",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Worked with Bitbucket for version control and continuous integration pipelines."
+                      }
+                    ]
+                  }
+                ],
+                "createdAt": "2024-07-01T02:38:15.327Z",
+                "updatedAt": "2024-07-19T14:37:36.159Z",
+                "publishedAt": "2024-07-01T02:38:16.487Z",
+                "FA_Brand_Icon": "Bitbucket",
+                "FA_Solid_Icon": null
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 7
+    }
+  }
+}

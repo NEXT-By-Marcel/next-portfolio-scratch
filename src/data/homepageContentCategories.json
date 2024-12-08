@@ -1,0 +1,254 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "Name": "Work Experience",
+        "Weight": 100,
+        "createdAt": "2024-07-19T15:16:53.176Z",
+        "updatedAt": "2024-07-19T16:17:37.463Z",
+        "publishedAt": "2024-07-19T15:30:25.027Z",
+        "homepage_contents": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "createdAt": "2024-07-19T15:21:45.401Z",
+                "updatedAt": "2024-10-16T04:50:09.558Z",
+                "publishedAt": "2024-07-19T15:30:33.856Z",
+                "Name": "Full-Stack Marketing Developer - Fujifilm",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Delivering web services within the digital marketing space to over 20 businesses across the Americas."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "list",
+                    "format": "unordered",
+                    "children": [
+                      {
+                        "type": "list-item",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Collaborating with stakeholders on business requirements, IT teams on server-side management, and contractors on website management and updates."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "list-item",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Offering expertise in data analytics, performance optimization, SEO, form creation, content management, and cookie consent integration to enhance web functionality and user experience."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "list-item",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Coordinating website updates and translations for 4 multilingual Drupal-based corporate sites across the US, Canada, Brazil, and Colombia, ensuring smooth communication and alignment with stakeholders."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "list-item",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Supporting 18+ WordPress sites and 4 multilingual Drupal sites, ensuring optimal performance and seamless user experiences."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "list-item",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Overseeing project management processes, including tracking hours, updating tasks, and managing salary allocations to ensure accurate budgeting and resource distribution."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": ""
+                      }
+                    ]
+                  }
+                ],
+                "FA_Brand_Icon": null,
+                "FA_Solid_Icon": "Tag"
+              }
+            },
+            {
+              "id": 2,
+              "attributes": {
+                "createdAt": "2024-07-19T15:23:36.729Z",
+                "updatedAt": "2024-07-19T15:23:36.729Z",
+                "publishedAt": "2024-07-19T15:30:33.856Z",
+                "Name": "Full-Stack Developer​",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "I am a skilled full-stack web developer, specializing in WordPress. I have extensive experience customizing themes, building plugins, and integrating various APIs to enhance site functionality and user experience."
+                      }
+                    ]
+                  }
+                ],
+                "FA_Brand_Icon": null,
+                "FA_Solid_Icon": "Stream"
+              }
+            },
+            {
+              "id": 3,
+              "attributes": {
+                "createdAt": "2024-07-19T15:26:43.618Z",
+                "updatedAt": "2024-07-19T16:55:41.750Z",
+                "publishedAt": "2024-07-19T15:30:03.007Z",
+                "Name": "Front-end Developer",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "As a front-end developer, I focus on a mobile-first approach with fallbacks for older browsers. I am proficient in advanced CSS techniques such as Flexbox, Grid, and CSS pre-processors, and I leverage modern tools like React, TypeScript, and Tailwind CSS to create high-performance, responsive web applications."
+                      }
+                    ]
+                  }
+                ],
+                "FA_Brand_Icon": null,
+                "FA_Solid_Icon": "VectorSquare"
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "createdAt": "2024-07-19T15:26:43.618Z",
+                "updatedAt": "2024-07-19T16:55:41.750Z",
+                "publishedAt": "2024-07-19T15:30:03.007Z",
+                "Name": "React Developer",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "With hands-on experience in building modern, scalable web applications using React, I have developed a strong understanding of its ecosystem and best practices. I focus on creating dynamic, high-performance user interfaces and have started integrating React into smaller-scale projects."
+                      }
+                    ]
+                  }
+                ],
+                "FA_Brand_Icon": "React",
+                "FA_Solid_Icon": null
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "Name": "Education",
+        "Weight": 200,
+        "createdAt": "2024-07-19T16:57:40.913Z",
+        "updatedAt": "2024-07-19T16:57:40.913Z",
+        "publishedAt": "2024-07-19T16:58:30.158Z",
+        "homepage_contents": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "createdAt": "2024-07-19T16:58:21.354Z",
+                "updatedAt": "2024-07-19T17:04:06.400Z",
+                "publishedAt": "2024-07-19T16:59:27.645Z",
+                "Name": "Computer Science Graduate",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "I've earned the prestigious distinction of a Summa Cum Laude graduate in Computer Science. My studies have contributed to my knowledge of web and software development. I have a deep understanding of machine code and database systems."
+                      }
+                    ]
+                  }
+                ],
+                "FA_Brand_Icon": null,
+                "FA_Solid_Icon": "UserGraduate"
+              }
+            },
+            {
+              "id": 5,
+              "attributes": {
+                "createdAt": "2024-07-19T17:01:37.950Z",
+                "updatedAt": "2024-07-19T17:05:43.189Z",
+                "publishedAt": "2024-07-19T17:01:40.294Z",
+                "Name": "Database Engineer/Designer",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "With 10 years of experience using MySQL, I have developed expertise in database design, writing complex queries, and optimizing performance. I completed three advanced database courses, which strengthened my foundation in database engineering across various programming languages and database types. I am proficient in designing optimized databases, integrating prepared statements into web applications, and ensuring secure and efficient data management across multiple projects."
+                      }
+                    ]
+                  }
+                ],
+                "FA_Brand_Icon": null,
+                "FA_Solid_Icon": "Database"
+              }
+            },
+            {
+              "id": 6,
+              "attributes": {
+                "createdAt": "2024-07-19T17:07:06.761Z",
+                "updatedAt": "2024-07-19T17:10:54.157Z",
+                "publishedAt": "2024-07-19T17:07:20.827Z",
+                "Name": "Disciplines",
+                "Description": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "I'm familiar with algorithm analysis, discrete math, locks, programming paradigms, mutliple programming languages, database design, data structures, software engineering processes, and human-computer interaction (UX/UI)."
+                      }
+                    ]
+                  }
+                ],
+                "FA_Brand_Icon": null,
+                "FA_Solid_Icon": "UniversalAccess"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 2
+    }
+  }
+}
