@@ -4,14 +4,14 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
+import { type BlocksContent } from "@strapi/blocks-react-renderer";
+import BlockRendererClient from "../app/BlockRendererClient";
 
 interface Attributes {
   FA_Brand_Icon: string | null;
   FA_Solid_Icon: string | null;
   Name: string;
-  Description: Array<{
-    children: Array<{ text: string }>;
-  }>;
+  Description: BlocksContent;
 }
 
 interface Relation {
@@ -57,8 +57,10 @@ const SkillCategories: React.FC<CategoriesProps> = ({ categories }) => {
             <h3 className="mb-8 text-2xl font-extrabold leading-none tracking-tight md:text-3xl lg:text-4xl text-center text-zinc-100">
               {category.attributes.Name}
             </h3>
-            <div className="mb-16 grid grid-cols-1 lg:grid-cols-3 lg:text-left gap-4">
+            <div className="mb-16 grid grid-cols-1 lg:grid-cols-1 lg:text-left gap-4">
               {homepageContents.data.map((homepageContent: Relation) => {
+                const content: BlocksContent =
+                  homepageContent.attributes.Description;
                 let icon;
 
                 if (homepageContent.attributes.FA_Brand_Icon) {
@@ -80,12 +82,7 @@ const SkillCategories: React.FC<CategoriesProps> = ({ categories }) => {
                     <h3 className="mb-4 font-extrabold text-lg lg:text-xl text-sky-300">
                       {homepageContent.attributes.Name}
                     </h3>
-                    <p className="mb-4 text-sm text-zinc-300">
-                      {
-                        homepageContent.attributes.Description[0].children[0]
-                          .text
-                      }
-                    </p>
+                    <BlockRendererClient content={content} />
                   </div>
                 );
               })}

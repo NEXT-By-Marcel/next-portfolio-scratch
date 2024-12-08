@@ -3,14 +3,13 @@
 import React from "react";
 import SkillCategories from "../components/SkillCategories";
 import HomepageContentCategories from "../components/HomepageContentCategories";
+import { type BlocksContent } from "@strapi/blocks-react-renderer";
 
 interface Attributes {
   FA_Brand_Icon: string | null;
   FA_Solid_Icon: string | null;
   Name: string;
-  Description: Array<{
-    children: Array<{ text: string }>;
-  }>;
+  Description: BlocksContent;
 }
 
 interface Relation {

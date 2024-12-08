@@ -4,14 +4,14 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
+import { type BlocksContent } from "@strapi/blocks-react-renderer";
+import BlockRendererClient from "../app/BlockRendererClient";
 
 interface Attributes {
   FA_Brand_Icon: string | null;
   FA_Solid_Icon: string | null;
   Name: string;
-  Description: Array<{
-    children: Array<{ text: string }>;
-  }>;
+  Description: BlocksContent;
 }
 
 interface Relation {
@@ -58,6 +58,7 @@ const SkillCategories: React.FC<CategoriesProps> = ({ categories }) => {
             </h3>
             <div className="mb-16 grid grid-cols-2 lg:grid-cols-4 lg:text-left gap-4">
               {skills.data.map((skill: Relation) => {
+                const content: BlocksContent = skill.attributes.Description;
                 let icon;
 
                 if (skill.attributes.FA_Brand_Icon) {
@@ -82,9 +83,7 @@ const SkillCategories: React.FC<CategoriesProps> = ({ categories }) => {
                     <h3 className="mb-4 font-extrabold text-sky-300">
                       {skill.attributes.Name}
                     </h3>
-                    <p className="mb-4 text-sm text-zinc-300">
-                      {skill.attributes.Description[0].children[0].text}
-                    </p>
+                    <BlockRendererClient content={content} />
                   </div>
                 );
               })}
