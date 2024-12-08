@@ -59,8 +59,6 @@ const SkillCategories: React.FC<CategoriesProps> = ({ categories }) => {
             </h3>
             <div className="mb-16 grid grid-cols-1 lg:grid-cols-1 lg:text-left gap-4">
               {homepageContents.data.map((homepageContent: Relation) => {
-                const content: BlocksContent =
-                  homepageContent.attributes.Description;
                 let icon;
 
                 if (homepageContent.attributes.FA_Brand_Icon) {
@@ -71,7 +69,7 @@ const SkillCategories: React.FC<CategoriesProps> = ({ categories }) => {
                 }
 
                 return (
-                  <div className="p-4 text-center" key={homepageContent.id}>
+                  <div className="p-4 text-left" key={homepageContent.id}>
                     {icon ? (
                       <FontAwesomeIcon
                         icon={icon}
@@ -82,7 +80,9 @@ const SkillCategories: React.FC<CategoriesProps> = ({ categories }) => {
                     <h3 className="mb-4 font-extrabold text-lg lg:text-xl text-sky-300">
                       {homepageContent.attributes.Name}
                     </h3>
-                    <BlockRendererClient content={content} />
+                    <BlockRendererClient
+                      content={homepageContent.attributes.Description}
+                    />
                   </div>
                 );
               })}

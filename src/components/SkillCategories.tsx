@@ -58,7 +58,6 @@ const SkillCategories: React.FC<CategoriesProps> = ({ categories }) => {
             </h3>
             <div className="mb-16 grid grid-cols-2 lg:grid-cols-4 lg:text-left gap-4">
               {skills.data.map((skill: Relation) => {
-                const content: BlocksContent = skill.attributes.Description;
                 let icon;
 
                 if (skill.attributes.FA_Brand_Icon) {
@@ -83,7 +82,9 @@ const SkillCategories: React.FC<CategoriesProps> = ({ categories }) => {
                     <h3 className="mb-4 font-extrabold text-sky-300">
                       {skill.attributes.Name}
                     </h3>
-                    <BlockRendererClient content={content} />
+                    <BlockRendererClient
+                      content={skill.attributes.Description}
+                    />
                   </div>
                 );
               })}

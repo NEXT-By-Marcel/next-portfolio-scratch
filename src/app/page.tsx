@@ -4,6 +4,7 @@ import React from "react";
 import SkillCategories from "../components/SkillCategories";
 import HomepageContentCategories from "../components/HomepageContentCategories";
 import { type BlocksContent } from "@strapi/blocks-react-renderer";
+import "./styles.css";
 
 interface Attributes {
   FA_Brand_Icon: string | null;
@@ -41,7 +42,7 @@ interface Categories {
 }
 
 async function fetchCategories(endpoint: string): Promise<Categories> {
-  const res = await fetch("http://localhost:1337/api/" + endpoint);
+  const res = await fetch("http://strapi.marcelm.org/api/" + endpoint);
 
   if (!res.ok) {
     throw new Error("Failed to fetch data");

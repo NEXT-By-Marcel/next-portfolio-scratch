@@ -1,0 +1,10 @@
+/* styles.css */
+ul {
+    list-style-type: square; /* Change the bullet type */
+    margin-left:2em;
+  }
+  
+  li::marker {
+    color: red; /* Change the bullet color */
+    font-size: 1.2em; /* Change the bullet size */
+  }
