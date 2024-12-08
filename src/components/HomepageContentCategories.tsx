@@ -29,7 +29,7 @@ interface CategoryAttributes {
   publishedAt: string;
   Name: string;
   Weight: number | null;
-  skills: Relations;
+  homepage_contents: Relations;
 }
 
 interface Category {
@@ -49,41 +49,42 @@ const SkillCategories: React.FC<CategoriesProps> = ({ categories }) => {
   return (
     <>
       {categories.data.map((category: Category) => {
-        const skills: Relations = category.attributes.skills;
+        const homepageContents: Relations =
+          category.attributes.homepage_contents;
 
         return (
           <div key={category.id} className="w-full lg:max-w-5xl">
-            <h3 className="mb-8 text-2xl font-extrabold leading-none tracking-tight md:text-3xl lg:text-4xl text-zinc-100">
+            <h3 className="mb-8 text-2xl font-extrabold leading-none tracking-tight md:text-3xl lg:text-4xl text-center text-zinc-100">
               {category.attributes.Name}
             </h3>
-            <div className="mb-16 grid grid-cols-2 lg:grid-cols-4 lg:text-left gap-4">
-              {skills.data.map((skill: Relation) => {
+            <div className="mb-16 grid grid-cols-1 lg:grid-cols-3 lg:text-left gap-4">
+              {homepageContents.data.map((homepageContent: Relation) => {
                 let icon;
 
-                if (skill.attributes.FA_Brand_Icon) {
-                  icon = fab["fa" + skill.attributes.FA_Brand_Icon];
+                if (homepageContent.attributes.FA_Brand_Icon) {
+                  icon = fab["fa" + homepageContent.attributes.FA_Brand_Icon];
                 }
-                if (skill.attributes.FA_Solid_Icon) {
-                  icon = fas["fa" + skill.attributes.FA_Solid_Icon];
+                if (homepageContent.attributes.FA_Solid_Icon) {
+                  icon = fas["fa" + homepageContent.attributes.FA_Solid_Icon];
                 }
 
                 return (
-                  <div
-                    className="border-solid border border-zinc-300 p-4 "
-                    key={skill.id}
-                  >
+                  <div className="p-4 text-center" key={homepageContent.id}>
                     {icon ? (
                       <FontAwesomeIcon
                         icon={icon}
-                        size="3x"
+                        size="5x"
                         className="mb-4 text-sky-300"
                       />
                     ) : null}
-                    <h3 className="mb-4 font-extrabold text-sky-300">
-                      {skill.attributes.Name}
+                    <h3 className="mb-4 font-extrabold text-lg lg:text-xl text-sky-300">
+                      {homepageContent.attributes.Name}
                     </h3>
                     <p className="mb-4 text-sm text-zinc-300">
-                      {skill.attributes.Description[0].children[0].text}
+                      {
+                        homepageContent.attributes.Description[0].children[0]
+                          .text
+                      }
                     </p>
                   </div>
                 );

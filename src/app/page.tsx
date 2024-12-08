@@ -2,8 +2,9 @@
 
 import React from "react";
 import SkillCategories from "../components/SkillCategories";
+import HomepageContentCategories from "../components/HomepageContentCategories";
 
-interface SkillAttributes {
+interface Attributes {
   FA_Brand_Icon: string | null;
   FA_Solid_Icon: string | null;
   Name: string;
@@ -12,13 +13,13 @@ interface SkillAttributes {
   }>;
 }
 
-interface Skill {
+interface Relation {
   id: number;
-  attributes: SkillAttributes;
+  attributes: Attributes;
 }
 
-interface Skills {
-  data: Skill[];
+interface Relations {
+  data: Relation[];
 }
 
 interface CategoryAttributes {
@@ -27,7 +28,8 @@ interface CategoryAttributes {
   publishedAt: string;
   Name: string;
   Weight: number | null;
-  Skills: Skills;
+  skills: Relations;
+  homepage_contents: Relations;
 }
 
 interface Category {
@@ -39,10 +41,8 @@ interface Categories {
   data: Category[];
 }
 
-async function fetchSkillCategories(): Promise<Categories> {
-  const res = await fetch(
-    "http://localhost:1337/api/skill-categories?populate=Skills"
-  );
+async function fetchCategories(endpoint: string): Promise<Categories> {
+  const res = await fetch("http://localhost:1337/api/" + endpoint);
 
   if (!res.ok) {
     throw new Error("Failed to fetch data");
@@ -63,14 +63,21 @@ async function fetchSkillCategories(): Promise<Categories> {
 }
 
 const Home = async () => {
-  const categories = await fetchSkillCategories();
+  const skillCategories = await fetchCategories("skill-categories?populate=*");
+  const homepageContentCategories = await fetchCategories(
+    "homepage-content-categories?populate=*"
+  );
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-start p-8 lg:p-24">
-      <h2 className="mb-16 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl text-white ">
-        Skills
+      <h2 className="mb-16 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl text-zinc-100 ">
+        Introduction
       </h2>
-      <SkillCategories categories={categories} />
+      <HomepageContentCategories categories={homepageContentCategories} />
+      <h2 className="mb-16 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl text-zinc-100 ">
+        Services
+      </h2>
+      <SkillCategories categories={skillCategories} />
     </main>
   );
 };
