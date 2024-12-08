@@ -72,12 +72,12 @@ const Home = async () => {
         Introduction
       </h2>
       <p className="container mx-auto max-w-screen-lg mb-12 text-jus">
-        Welcome to my portfolio! On this portfolio website, I've used a modern
-        tech stack to create a seamless user experience. The site is built with
-        React, following a component-based architecture that allows for reusable
-        and modular components. Tailwind CSS is used for flexible styling that
-        ensures a responsive design. Additionally, TypeScript enhances the
-        functionality with strong typing, improving code quality,
+        Welcome to my portfolio! On this portfolio website, I&apos;ve used a
+        modern tech stack to create a seamless user experience. The site is
+        built with React, following a component-based architecture that allows
+        for reusable and modular components. Tailwind CSS is used for flexible
+        styling that ensures a responsive design. Additionally, TypeScript
+        enhances the functionality with strong typing, improving code quality,
         maintainability, and scalability. This combination of technologies
         results in a fast, dynamic, and polished portfolio that effectively
         showcases my skills and projects.
